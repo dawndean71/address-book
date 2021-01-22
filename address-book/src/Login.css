@@ -1,0 +1,61 @@
+/* Login Page styling */
+body {
+  background: url("https://madailylife.com/wp-content/uploads/2014/04/how-to-meet-new-people.jpg")
+    no-repeat;
+  background-size: cover;
+  width: auto;
+  height:auto;
+  /* overflow-y: scroll; */
+}
+
+.login__overlay {
+  /* Sit on top of the page content */
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 3; 
+  
+}
+.login {
+  max-width: 27%;
+  max-height: 55vh;
+  background-color: rgba(255, 255, 255, 0.582);
+  margin: auto;
+  margin-top: 50px;
+  padding: 100px ;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
+  overflow: hidden;
+}
+.login__signInButton {
+  width: 45%;
+  /* white font color */
+  color: #ffffff;
+  background-color: blue;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-family: "Arial";
+  /* add some spacing between the default pic and button */
+  padding: 10px;
+  cursor: pointer;
+}
+.login__registerLink {
+  text-decoration: none;
+
+}
+
+.login__logo {
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  margin-top: -50px;
+}
+
+.login__container {
+  min-height:5vh;
+  
+}

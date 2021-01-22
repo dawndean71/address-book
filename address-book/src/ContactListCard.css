@@ -1,0 +1,84 @@
+/* ContactListCard Page styling */ */
+.contactListCard {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  margin-top: 20px;
+}
+.contactListCard__image {
+  border-right: 1px dotted rgba(0, 0, 0, 0.308);
+  width: 30%;
+}
+.contactListCard__image > img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px double black;
+  margin-top: 10px;
+}
+
+.contactListCard__firstName {
+  margin-right: 3px;
+}
+.contactListCard__fullName {
+  font-weight: 700;
+  display: flex;
+  margin-left: 8px;
+  margin-top: 5px;
+  /* background-color: yellow; */
+  width: 50%;
+}
+.contactListCard__info {
+  margin-bottom: 20px;
+}
+.contactListCard__email {
+  margin: 0;
+  /* background-color: green; */
+  width: 50%;
+  /* display: flex; */
+  margin-right: 15px;
+  margin-left: 8px;
+  margin-top: -15px;
+}
+.contactListCard__phone {
+  /* background-color: purple; */
+  /* margin:7px; */
+  margin: 0;
+  font-style: italic;
+  padding-left: 9px;
+}
+
+.contactListCard__buttons {
+  width: 15%;
+  /* background-color: yellow; */
+  display: block;
+  padding-top: 10px;
+  position: sticky;
+}
+.contactListCard__editButton {
+  /* width:100px; */
+  width: 50%;
+  /* background-color: blue; */
+  color: blue;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* align-items: center; */
+}
+
+.contactListCard__deleteButton {
+  /* width:100px; */
+  width: 50%;
+  margin-top: 10px;
+  /* background-color: red; */
+  color: red;
+  padding: 5px;
+  padding-left: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  /* align-items: center; */
+}

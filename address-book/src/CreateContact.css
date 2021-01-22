@@ -1,0 +1,98 @@
+/* CreateContact Page styling */
+body {
+  background: url("https://madailylife.com/wp-content/uploads/2014/04/how-to-meet-new-people.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.contact__overlay {
+  /* Sit on top of the page content */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  overflow: hidden;
+}
+
+.contact {
+  max-width: 32%;
+  min-height: 450px;
+  max-height: 600px;
+  background-color: rgba(255, 255, 255, 0.582);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
+}
+
+.contact__nav {
+  /* give header a black color */
+  background-color: black;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.contact__saveButton {
+  /* width:100px; */
+  width: 60px;
+  margin-right: 20px;
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+}
+.contact__firstName {
+  margin-top: 20px;
+}
+.contact__lastName {
+  margin-top: 20px;
+}
+.contact__email {
+  margin-top: 20px;
+}
+.contact__phone {
+  margin-top: 20px;
+}
+.contact__arrow {
+  margin-left: 20px;
+}
+.contact__text {
+  color: white;
+  margin: auto;
+}
+
+.contact__arrowIcon {
+  color: white !important;
+}
+
+.contact__image > img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  opacity: 0.6;
+  margin-top: 15px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  clear: both;
+  margin-right: 15px;
+}
